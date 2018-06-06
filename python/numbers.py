@@ -1,6 +1,7 @@
-num1 = 10
-num2 = 2.5
-sum = num1 + num2
-difference = num1 - num2
-quotient = num1 / num2
-product = num1 * num2
+fruits = ["trombone", "apple", "banana", "pear", "plum"]
+if fruits[0] == "apple":
+    print("Yum!")
+elif fruits[0] == "cardboard" or fruits[0] == "sand":
+    print("Yuck!")
+else:
+    print("Not bad.")
